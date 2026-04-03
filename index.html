@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background: #fff;
+            color: #1a1a1a;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-container {
+            width: 100%;
+            max-width: 936px;
+            padding: 3rem 2rem 0;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 0;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        .text-section {
+            text-align: center;
+            padding: 2.5rem 2rem 4rem;
+        }
+
+        h1 {
+            font-size: clamp(1rem, 2.5vw, 1.4rem);
+            font-weight: 300;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #555;
+            margin-bottom: 0.6rem;
+        }
+
+        .contact-link {
+            display: inline-block;
+            font-family: Arial, sans-serif;
+            font-size: clamp(0.7rem, 1.3vw, 0.8rem);
+            font-weight: 300;
+            color: #999;
+            text-decoration: none;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            transition: color 0.25s ease;
+        }
+
+        .contact-link:hover {
+            color: #1a1a1a;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="hero.jpg" alt="Ocean wave breaking near a tropical island">
+    </div>
+    <div class="text-section">
+        <h1>Page Coming Soon</h1>
+        <a class="contact-link" href="mailto:inquiries@coleheine.com">Contact Now</a>
+    </div>
+</body>
+</html>
